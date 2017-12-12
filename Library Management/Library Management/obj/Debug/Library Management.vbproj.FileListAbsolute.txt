@@ -1,1 +1,12 @@
 D:\Library Assignment\Library-Management\Library Management\Library Management\bin\Debug\Library Management.exe.config
+D:\Project\Library-Management\Library Management\Library Management\bin\Debug\Library Management.exe.config
+D:\Project\Library-Management\Library Management\Library Management\bin\Debug\Library Management.exe
+D:\Project\Library-Management\Library Management\Library Management\bin\Debug\Library Management.pdb
+D:\Project\Library-Management\Library Management\Library Management\bin\Debug\Library Management.xml
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.Resources.resources
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library Management.vbproj.GenerateResource.Cache
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library Management.exe
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library Management.xml
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library Management.pdb
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.frmmain.resources
+D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.login.resources

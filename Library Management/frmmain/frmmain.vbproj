@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B0C53C7-9229-443A-B8D0-0480870602AE}</ProjectGuid>
+    <ProjectGuid>{78F4E6A3-3191-4B49-AA05-B4E2D772EB87}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Library_Management.My.MyApplication</StartupObject>
-    <RootNamespace>Library_Management</RootNamespace>
-    <AssemblyName>Library Management</AssemblyName>
+    <StartupObject>frmmain.My.MyApplication</StartupObject>
+    <RootNamespace>frmmain</RootNamespace>
+    <AssemblyName>frmmain</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Library Management.xml</DocumentationFile>
+    <DocumentationFile>frmmain.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Library Management.xml</DocumentationFile>
+    <DocumentationFile>frmmain.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -70,17 +70,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="login.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.vb">
-      <DependentUpon>login.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmmain.Designer.vb">
-      <DependentUpon>frmmain.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmmain.vb">
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,11 +94,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmmain.resx">
-      <DependentUpon>frmmain.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
