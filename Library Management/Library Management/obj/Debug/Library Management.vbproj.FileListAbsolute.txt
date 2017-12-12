@@ -10,3 +10,14 @@ D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Li
 D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library Management.pdb
 D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.frmmain.resources
 D:\Project\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.login.resources
+D:\GitHub\Library-Management\Library Management\Library Management\bin\Debug\Library Management.exe.config
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library Management.exe
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library Management.xml
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library Management.pdb
+D:\GitHub\Library-Management\Library Management\Library Management\bin\Debug\Library Management.exe
+D:\GitHub\Library-Management\Library Management\Library Management\bin\Debug\Library Management.pdb
+D:\GitHub\Library-Management\Library Management\Library Management\bin\Debug\Library Management.xml
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.login.resources
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.frmmain.resources
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library_Management.Resources.resources
+D:\GitHub\Library-Management\Library Management\Library Management\obj\Debug\Library Management.vbproj.GenerateResource.Cache
