@@ -16,3 +16,7 @@ D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Rel
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmAdd.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmBook.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.SplashScreen.resources
+D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\bin\Release\Library_Management.exe.config
+D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.exe
+D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.xml
+D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.pdb
