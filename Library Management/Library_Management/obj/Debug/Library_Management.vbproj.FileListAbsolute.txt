@@ -1,14 +1,17 @@
 D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Debug\Library_Management.exe.config
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmLogin.resources
-D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.Menu.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.Resources.resources
-D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.UserControl1.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.vbproj.GenerateResource.Cache
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\bin\Debug\Library_Management.exe.config
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.frmInsert.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.frmLogin.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.frmMenu.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.frmStuManage.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.Resources.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.UserControl1.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Debug\Library_Management.vbproj.GenerateResource.Cache
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmInsert.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmMenu.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmReturn.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmStuMa.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Debug\Library_Management.exe
+D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Debug\Library_Management.pdb
+D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Debug\Library_Management.xml
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmAdd.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.frmBook.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.exe
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.xml
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.pdb
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Debug\Library_Management.SplashScreen.resources

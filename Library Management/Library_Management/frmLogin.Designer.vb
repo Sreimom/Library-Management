@@ -1,4 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1726")> _
 Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
@@ -13,6 +14,11 @@ Partial Class frmLogin
             MyBase.Dispose(disposing)
         End Try
     End Sub
+    Friend WithEvents UsernameLabel As System.Windows.Forms.Label
+    Friend WithEvents txtUsername As System.Windows.Forms.TextBox
+    Friend WithEvents txtPaswd As System.Windows.Forms.TextBox
+    Friend WithEvents txtLogin As System.Windows.Forms.Button
+    Friend WithEvents txtCancel As System.Windows.Forms.Button
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -22,79 +28,109 @@ Partial Class frmLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnLogin = New System.Windows.Forms.Button()
-        Me.txtUser = New System.Windows.Forms.TextBox()
-        Me.txtPwd = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.លេខសំងាត់ = New System.Windows.Forms.Label()
+        Me.UsernameLabel = New System.Windows.Forms.Label()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.txtPaswd = New System.Windows.Forms.TextBox()
+        Me.txtLogin = New System.Windows.Forms.Button()
+        Me.txtCancel = New System.Windows.Forms.Button()
+        Me.PasswordLabel = New System.Windows.Forms.Label()
+        Me.btnConnect = New System.Windows.Forms.Button()
+        Me.btnShowNHide = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btnLogin
+        'UsernameLabel
         '
-        Me.btnLogin.Font = New System.Drawing.Font("Khmer OS Battambang", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.Location = New System.Drawing.Point(167, 164)
-        Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(105, 34)
-        Me.btnLogin.TabIndex = 1
-        Me.btnLogin.Text = "ចូលប្រើប្រាស់"
-        Me.btnLogin.UseVisualStyleBackColor = True
+        Me.UsernameLabel.Location = New System.Drawing.Point(28, 40)
+        Me.UsernameLabel.Name = "UsernameLabel"
+        Me.UsernameLabel.Size = New System.Drawing.Size(101, 23)
+        Me.UsernameLabel.TabIndex = 0
+        Me.UsernameLabel.Text = "&User name"
+        Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'txtUser
+        'txtUsername
         '
-        Me.txtUser.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUser.Location = New System.Drawing.Point(139, 50)
-        Me.txtUser.Name = "txtUser"
-        Me.txtUser.Size = New System.Drawing.Size(178, 26)
-        Me.txtUser.TabIndex = 2
+        Me.txtUsername.Location = New System.Drawing.Point(93, 42)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(142, 20)
+        Me.txtUsername.TabIndex = 1
         '
-        'txtPwd
+        'txtPaswd
         '
-        Me.txtPwd.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPwd.Location = New System.Drawing.Point(139, 105)
-        Me.txtPwd.Name = "txtPwd"
-        Me.txtPwd.Size = New System.Drawing.Size(178, 26)
-        Me.txtPwd.TabIndex = 3
+        Me.txtPaswd.Location = New System.Drawing.Point(93, 84)
+        Me.txtPaswd.Name = "txtPaswd"
+        Me.txtPaswd.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtPaswd.Size = New System.Drawing.Size(142, 20)
+        Me.txtPaswd.TabIndex = 3
         '
-        'Label1
+        'txtLogin
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(41, 49)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(64, 27)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "អ្នកប្រើ :"
+        Me.txtLogin.Location = New System.Drawing.Point(93, 135)
+        Me.txtLogin.Name = "txtLogin"
+        Me.txtLogin.Size = New System.Drawing.Size(60, 23)
+        Me.txtLogin.TabIndex = 4
+        Me.txtLogin.Text = "&OK"
         '
-        'លេខសំងាត់
+        'txtCancel
         '
-        Me.លេខសំងាត់.AutoSize = True
-        Me.លេខសំងាត់.Location = New System.Drawing.Point(41, 105)
-        Me.លេខសំងាត់.Name = "លេខសំងាត់"
-        Me.លេខសំងាត់.Size = New System.Drawing.Size(98, 27)
-        Me.លេខសំងាត់.TabIndex = 5
-        Me.លេខសំងាត់.Text = "លេខសំងាត់ :"
+        Me.txtCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.txtCancel.Location = New System.Drawing.Point(172, 135)
+        Me.txtCancel.Name = "txtCancel"
+        Me.txtCancel.Size = New System.Drawing.Size(59, 23)
+        Me.txtCancel.TabIndex = 5
+        Me.txtCancel.Text = "&Cancel"
+        '
+        'PasswordLabel
+        '
+        Me.PasswordLabel.Location = New System.Drawing.Point(28, 83)
+        Me.PasswordLabel.Name = "PasswordLabel"
+        Me.PasswordLabel.Size = New System.Drawing.Size(63, 23)
+        Me.PasswordLabel.TabIndex = 2
+        Me.PasswordLabel.Text = "&Password"
+        Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'btnConnect
+        '
+        Me.btnConnect.Location = New System.Drawing.Point(12, 164)
+        Me.btnConnect.Name = "btnConnect"
+        Me.btnConnect.Size = New System.Drawing.Size(79, 23)
+        Me.btnConnect.TabIndex = 6
+        Me.btnConnect.Text = "Connect"
+        '
+        'btnShowNHide
+        '
+        Me.btnShowNHide.Location = New System.Drawing.Point(241, 84)
+        Me.btnShowNHide.Name = "btnShowNHide"
+        Me.btnShowNHide.Size = New System.Drawing.Size(26, 20)
+        Me.btnShowNHide.TabIndex = 7
+        Me.btnShowNHide.Text = "..."
+        Me.btnShowNHide.UseVisualStyleBackColor = True
         '
         'frmLogin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 27.0!)
+        Me.AcceptButton = Me.txtLogin
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(379, 219)
-        Me.Controls.Add(Me.លេខសំងាត់)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtPwd)
-        Me.Controls.Add(Me.txtUser)
-        Me.Controls.Add(Me.btnLogin)
-        Me.Font = New System.Drawing.Font("Khmer OS Muol", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(4, 6, 4, 6)
+        Me.CancelButton = Me.txtCancel
+        Me.ClientSize = New System.Drawing.Size(290, 192)
+        Me.Controls.Add(Me.btnShowNHide)
+        Me.Controls.Add(Me.btnConnect)
+        Me.Controls.Add(Me.txtCancel)
+        Me.Controls.Add(Me.txtLogin)
+        Me.Controls.Add(Me.txtPaswd)
+        Me.Controls.Add(Me.txtUsername)
+        Me.Controls.Add(Me.PasswordLabel)
+        Me.Controls.Add(Me.UsernameLabel)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmLogin"
-        Me.Text = "ចូលប្រើប្រាស់"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnLogin As System.Windows.Forms.Button
-    Friend WithEvents txtUser As System.Windows.Forms.TextBox
-    Friend WithEvents txtPwd As System.Windows.Forms.TextBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents លេខសំងាត់ As System.Windows.Forms.Label
+    Friend WithEvents PasswordLabel As System.Windows.Forms.Label
+    Friend WithEvents btnConnect As System.Windows.Forms.Button
+    Friend WithEvents btnShowNHide As System.Windows.Forms.Button
 
 End Class

@@ -6,7 +6,11 @@ Library_Management
 </name>
 </assembly>
 <members>
-<member name="P:Library_Management.My.Resources.Resources.ResourceManager">
+<member name="T:Library_Management.library_managementDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -14,6 +18,34 @@ Library_Management
 	<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Add_New_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Books_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Borrow_Book_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Exit_32px_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Library_32px_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Return_Book_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Library_Management.My.Resources.Resources.icons8_Students_32px">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="T:Library_Management.My.Resources.Resources">
 	<summary>

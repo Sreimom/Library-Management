@@ -1,7 +1,8 @@
-﻿Public Class frmMenu
+﻿
+Public Class frmMenu
 
     Private Sub btnInsert_Click(sender As Object, e As EventArgs) Handles btnInsert.Click
-        frmInsert.Show()
+        frmBook.Show()
     End Sub
 
     Private Sub btnBorrow_Click(sender As Object, e As EventArgs) Handles btnBorrow.Click
@@ -13,6 +14,11 @@
     End Sub
 
     Private Sub btnStuManage_Click(sender As Object, e As EventArgs) Handles btnStuManage.Click
-        frmStuManage.Show()
+        frmStuMa.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+    End Sub
+
 End Class

@@ -1,3 +1,3 @@
-﻿Public Class frmStuManage
+﻿Public Class frmStuMa
 
 End Class

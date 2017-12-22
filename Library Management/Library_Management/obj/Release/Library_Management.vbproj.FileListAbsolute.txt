@@ -4,21 +4,15 @@ D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Rel
 D:\Library Management(Assigntment)\Library_Management\Library_Management\bin\Release\Library_Management.xml
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmLogin.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.Resources.resources
-D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.UserControl1.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.vbproj.GenerateResource.Cache
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.exe
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.xml
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.pdb
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmMenu.resources
 D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmInsert.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\bin\Release\Library_Management.exe.config
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.exe
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.xml
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.pdb
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.frmInsert.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.frmLogin.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.frmMenu.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.frmStuManage.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.Resources.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.UserControl1.resources
-D:\Library Management(Assigntment)\Library-Management\Library Management\Library_Management\obj\Release\Library_Management.vbproj.GenerateResource.Cache
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmStuMa.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmReturn.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.vbprojResolveAssemblyReference.cache
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmAdd.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.frmBook.resources
+D:\Library Management(Assigntment)\Library_Management\Library_Management\obj\Release\Library_Management.SplashScreen.resources
